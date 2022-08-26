@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(white, gray );
+}
+
+.navb{
+    display: inline;
+    
+    text-align: right;
+    width: 100%;
+    
+}
+.bar{
+    text-decoration: none;
+    margin-top: 35px
+}
+.nav{
+    
+    display: inline;
+    font-size: 15px;
+   
+    border: 1.5px solid black;
+    border-radius: 8px;
+}
+li a{
+    
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+h1{
+    display: inline-block;
+    width: 45%;
+    font-size: 40px;
+    padding: 20px;
+}
+.img1{
+    width: 100%;
+    height: 500px;
+}
+
+h2{
+    padding-top: 7.5%;
+    height: 130px;
+    text-align: center;
+    font-size: 300%;
+    text-transform: uppercase;
+    color:black
+}
+p{
+    margin: 50px;
+    text-align: center; 
+    font-size: 130%;
+    color: black;
+    font-style: normal;
+}
+.p2{
+    font-size: 135%;
+    font-style: italic;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.p2 strong{
+    color: red;
+}
+
+h3{
+    margin: 85px 0px 155px 43.5%;
+    text-align: left;
+    font-size: 200%;
+    text-transform: uppercase;
+    color:black
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 10%;
+}
+.img2{
+    width: 50%;
+    
+    
+}
+
+.itens{
+    
+    font-style: italic;
+    font-size: 130%;
+    padding: 15px;
+} 
