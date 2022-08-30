@@ -110,8 +110,9 @@ p{
     font-size: 25px ;
 }
 .logo-branco{
-    position: relative;
-    left: 2%;
+    position: absolute;
+    top: 150%;
+    left: 43%;
 }
 footer{
     background: url(bg.jpg);
