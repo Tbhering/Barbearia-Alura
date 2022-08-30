@@ -1,0 +1,33 @@
+.menu{
+    background: white;
+    display: inline-block;
+}
+.logo{
+    width: 100%;
+}
+.nav{
+    
+    text-align: right;
+}
+main{
+    background: linear-gradient(white,gray);
+}
+H1{ 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+    margin: 3%;  
+}
+.produto{
+    margin: 3.9%;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+}
+.produtos{
+    display: inline;
+
+}
+

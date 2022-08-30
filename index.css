@@ -92,4 +92,10 @@ ul{
     font-style: italic;
     font-size: 130%;
     padding: 15px;
-} 
+}
+footer{
+    background:image("bg.jpg")
+}
+.img3{
+    width: 100%;
+}
