@@ -1,0 +1,85 @@
+header {
+    background: gray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navegação {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    left: 0;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 23%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 15px;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    font-size: 30px;
+    transition: 0.6s;
+    margin: 0 0 15px 15px;
+}
+
+nav a:active {
+    color: rgb(15, 116, 205);
+    transition: 0s;
+}
+
+main {
+    background: linear-gradient(white, gray);
+}
+
+.banner {
+    width: 100%;
+}
+
+input {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    
+}
+label{
+    font-size: 18px;
+    color: black;
+}
+.botao{
+
+}
+footer {
+    background: url(bg.jpg);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.logo-branco {
+    position: relative;
+    left: 43.5%;
+}
