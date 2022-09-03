@@ -63,7 +63,7 @@ main {
     width: 100%;
 }
 
-form input, textarea {
+.padrao {
     display: block;
     width: 50%;
     font-size: 18px;
@@ -75,43 +75,67 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label,
+form legend {
     display: block;
     margin: 10px 10px 10px 0;
     font-size: 18px;
     color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+fieldset {
+    margin: 20px 0px 20px 0px;
 }
 
 
-.botao {
-    background: red;
+
+select {
+    margin: 20px 0 0 0;
+    cursor: pointer;
+
+}
+
+
+.botao{
+    transition: 0.3s;
+    width: 50%;
+    padding: 15px 0;
+    color: white;
+    background: orange;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.botao:hover{
+    transition: 0.3s;
+    width: 50%;
+    padding: 15px 0px;
+    color: white;
+    background: darkorange;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: white;
     color: black;
     border: 1.5px solid black;
-    border-radius: 15px;
-    padding: 15px 15px 15px 15px;
-    margin: 15px 0px 20px 5px;
-
 }
-
-.botao:hover {
-    background: red;
-    color: black;
-    border: 1.5px solid black;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 15px 0px 20px 15px;
-    box-sizing: border-box;
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
-
-.botao:active {
-    background: yellow;
-    color: red;
-    border: 1.5px solid blue;
-    border-radius: 15px;
-    padding: 15px 15px 15px 15px;
-    margin: 15px 0px 2px 15px;
-}
-
 footer {
     background: url(bg.jpg);
 }

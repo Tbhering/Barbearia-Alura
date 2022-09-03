@@ -12,7 +12,7 @@
     <header>
 
         <div class="navegação">
-            <img class="logo" src="logo.png">
+            <img class="logo" src="logo.png" alt="logo da barbearia">
             <nav>
 
                 <ul>
@@ -25,47 +25,87 @@
 
     </header>
     <Main>
-        <div>
-            <form>
 
+        <form>
 
+            <fieldset>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input Type="text" id="nomesobrenome">
+                <input class="padrao" Type="text" id="nomesobrenome" required placeholder="Nome e sobrenome">
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input class="padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input class="padrao" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem"></textarea>
-                
-                <div>
-                    <p>Como Prefer nosso contato?</p>
+                <textarea class="padrao" cols="70" rows="10" id="mensagem" required></textarea>
+            </fieldset>
 
-                    <label for="radio-email">E-mail</label>
-                    <input type="radio" name="contato" value="email" id="radio-email">
+            <fieldset>
+                <legend>Como Prefer nosso contato?</legend>
 
-                    <label for="radio-telefone">Telefone</label>
-                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
-
-                    <label for="radio-Whatsapp">Whatsapp</label>
-                    <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp">
-                
-                <label><input type="checkbox" value="turno">Gostaria de receber nossas novidades por e-mail??</label>
-
-                </div>
+                <label for="radio-email"><input type="radio" name="contato" value="email"
+                        id="radio-email">E-mail</label>
 
 
-                <input class="botao" type="submit" value="Enviar formulário">
-            </form>
-        </div>
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-Whatsapp">
+                    <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+
+                <label><input class="checkbox" type="checkbox" value="turno" checked>Gostaria de receber nossas
+                    novidades
+                    por
+                    e-mail??</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Qual o melhor horario para entrarmos em contato?</legend>
+
+                <select>
+
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+
+                </select>
+            </fieldset>
+
+            <input class="botao" type="submit" value="Enviar formulário">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 19h</td>
+                </tr>
+            </tbody>
+        </table>
 
     </Main>
     <footer>
-        <img class="logo-branco" src="logo-branco.png">
+        <img class="logo-branco" src="logo-branco.png" alt="logo branca alura">
         <p>&copy; 2022 Barbearia-alura.com</p>
     </footer>
 </body>
+
 </html>
