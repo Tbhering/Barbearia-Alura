@@ -10,34 +10,55 @@
 
 <body>
     <header>
+
         <div class="navegação">
-            <h1>Barbearia Alura</h1>
+            <img class="logo" src="logo.png">
             <nav>
+
                 <ul>
                     <li><a href="Index.html">Home</a></li>
                     <li><a href="produtos.html">Serviços</a></li>
                 </ul>
+
             </nav>
         </div>
+
     </header>
     <Main>
         <div>
             <form>
 
-                <ul class="campos">
 
-                    <label for="nomesobrenome">Nome e Sobrenome</label>
-                    <input Type="text" id="nomesobrenome">
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input Type="text" id="nomesobrenome">
 
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email">
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
 
-                    <label for="telefone">Telefone</label>
-                    <input class="botao" type="text" id="telefone">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
 
-                </ul>
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem"></textarea>
+                
+                <div>
+                    <p>Como Prefer nosso contato?</p>
 
-                <input type="submit" value="Enviar formulário">
+                    <label for="radio-email">E-mail</label>
+                    <input type="radio" name="contato" value="email" id="radio-email">
+
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                    <label for="radio-Whatsapp">Whatsapp</label>
+                    <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp">
+                
+                <label><input type="checkbox" value="turno">Gostaria de receber nossas novidades por e-mail??</label>
+
+                </div>
+
+
+                <input class="botao" type="submit" value="Enviar formulário">
             </form>
         </div>
 
@@ -47,5 +68,4 @@
         <p>&copy; 2022 Barbearia-alura.com</p>
     </footer>
 </body>
-
 </html>

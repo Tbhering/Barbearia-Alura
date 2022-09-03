@@ -49,27 +49,69 @@ nav a:active {
     transition: 0s;
 }
 
-main {
+body {
     background: linear-gradient(white, gray);
+}
+
+main {
+
+    width: 940px;
+    margin: 0 auto;
 }
 
 .banner {
     width: 100%;
 }
 
-input {
+form input, textarea {
     display: block;
-    text-align: left;
+    width: 50%;
     font-size: 18px;
-    
+    margin: 15px 0 15px 0;
+
 }
-label{
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    margin: 10px 10px 10px 0;
     font-size: 18px;
     color: black;
 }
-.botao{
+
+
+.botao {
+    background: red;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 0px 20px 5px;
 
 }
+
+.botao:hover {
+    background: red;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 15px 0px 20px 15px;
+    box-sizing: border-box;
+}
+
+.botao:active {
+    background: yellow;
+    color: red;
+    border: 1.5px solid blue;
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 0px 2px 15px;
+}
+
 footer {
     background: url(bg.jpg);
 }
