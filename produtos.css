@@ -40,6 +40,7 @@ nav a:active{
 
 main{
     background: linear-gradient(white,gray);
+   
 }
 H1{ 
     text-align: center;
@@ -53,6 +54,7 @@ H1{
 
     width: 940px;
     margin: 0 auto;
+    
 
 }
 .produtos li{
@@ -77,6 +79,7 @@ H1{
 .produtos li:hover .img0{
     border-radius: 150px 25px 150px 25px;
     transition: 0.3s;
+   
 }
 .produtos li:hover h2{
     font-size: 35px;
@@ -84,6 +87,7 @@ H1{
 }
 .produtos li:hover p{
     font-size: 25px;
+    
 }
 .produtos li:active{
     color: rgb(15, 116, 205);
@@ -91,6 +95,7 @@ H1{
 }
 .img0{
     border-radius: 25px 150px 25px 150px;
+    
 }
 
 h2{
@@ -114,7 +119,10 @@ p{
     top: 150%;
     left: 43%;
 }
+.mapa{
+    padding: 3em 0;
 
+}
 footer {
     background: url(bg.jpg);
 }
@@ -127,4 +135,5 @@ footer p {
 .logo-branco {
     position: relative;
     left: 43.5%;
+   
 }

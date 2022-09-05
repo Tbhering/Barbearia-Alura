@@ -1,29 +1,34 @@
-header{
-    background:gray;
+header {
+    background: gray;
     padding: 20px;
     box-sizing: border-box;
 }
-.navegação{
+
+.navegação {
     position: relative;
     width: 940px;
     margin: auto;
 }
-h1{
+
+h1 {
     font-size: 30px;
     font-weight: bold;
     color: black;
     left: 0;
 }
-nav{
+
+nav {
     position: absolute;
     right: 0;
     top: 23%;
 }
-nav li{
+
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
-nav a{
+
+nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -31,24 +36,28 @@ nav a{
     font-size: 22px;
     margin: 0 0 0 15px;
 }
-nav a:hover{
+
+nav a:hover {
     color: darkgoldenrod;
     font-size: 30px;
     transition: 0.6s;
     margin: 0 0 15px 15px;
 }
-nav a:active{
+
+nav a:active {
     color: rgb(15, 116, 205);
     transition: 0s;
 }
-main{
+
+main {
     background: linear-gradient(white, gray);
 }
-.banner{
+
+.banner {
     width: 100%;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-weight: bold;
     color: black;
@@ -56,25 +65,30 @@ h2{
     margin: 15px;
     padding-bottom: 25px;
 }
-.utensilios{
+
+.utensilios {
     float: left;
     width: 130px;
     margin: 0 20px 20px 15px;
 }
-p{
+
+p {
     font-size: 20px;
     color: black;
-    
-    padding: 15px 15px ;
+
+    padding: 15px 15px;
 }
-p em{
+
+p em {
     color: red;
     font-style: italic;
 }
-p strong{
+
+p strong {
     font-weight: bold;
 }
-h3{
+
+h3 {
     font-size: 30px;
     font-weight: bold;
     color: black;
@@ -82,36 +96,46 @@ h3{
     margin: 15px;
     padding-bottom: 90px;
 }
-.beneficios{
+
+.beneficios {
     position: relative;
     width: 50%;
     right: 0;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
 }
-.ul{
+
+.ul {
     display: inline-block;
     vertical-align: top;
-    box-sizing: border-box;
+    line-height: 25px;
     padding-left: 15%;
 }
-.ul .itens{
+
+.ul .itens {
     margin-right: 120px;
     margin-bottom: 15px;
     font-size: 18px;
     color: black;
     font-weight: bold;
-    
-    
+
+
 }
-footer{
+
+.video {
+    margin: 5% 0 0 25%;
+    padding-bottom: 5%;
+}
+
+footer {
     background: url(bg.jpg);
 }
-footer p{
+
+footer p {
     color: white;
     text-align: center;
 }
 
-.logo-branco{
+.logo-branco {
     position: relative;
     left: 43.5%;
 }
